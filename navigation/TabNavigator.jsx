@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import Platform from "react-native"
 import { Foundation, Ionicons, FontAwesome } from "@expo/vector-icons"
 
-import 파일명 from "파일경로"
+import Main from "../pages/Main.jsx"
 
 const Tabs = createBottomTabNavigator()
 
@@ -63,7 +63,7 @@ const TabNavigator = () => {
         },
       }}
     >
-      <Tabs.Screen name="파일명" component={파일명} />
+      <Tabs.Screen name="Main" component={Main} />
     </Tabs.Navigator>
   )
 }
